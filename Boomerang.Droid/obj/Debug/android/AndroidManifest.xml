@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Boomerang.Droid.Boomerang.Droid" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="Boomerang" android:icon="@drawable/ic_launcher" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md5d2c02fe0c5756ca55fe09a93781f79ef.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/ic_launcher" android:screenOrientation="portrait" android:theme="@style/Theme.Boomerang" android:windowSoftInputMode="stateHidden|adjustUnspecified" android:name="md5ddb5f131f84b3148964a377d711de0e9.CategoryActivity" />
+    <activity android:icon="@drawable/ic_launcher" android:screenOrientation="portrait" android:theme="@style/Theme.Boomerang" android:windowSoftInputMode="stateHidden|adjustUnspecified" android:name="md5ddb5f131f84b3148964a377d711de0e9.RootActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Boomerang.Droid.Boomerang.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Boomerang.Droid.Boomerang.Droid" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

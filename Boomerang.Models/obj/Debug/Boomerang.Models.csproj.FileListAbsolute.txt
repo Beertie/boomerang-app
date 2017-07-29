@@ -1,0 +1,7 @@
+D:\Stack\Projects\Boomerang\Boomerang.Models\bin\Debug\Boomerang.Models.dll
+D:\Stack\Projects\Boomerang\Boomerang.Models\bin\Debug\Boomerang.Models.pdb
+D:\Stack\Projects\Boomerang\Boomerang.Models\bin\Debug\Newtonsoft.Json.dll
+D:\Stack\Projects\Boomerang\Boomerang.Models\bin\Debug\Newtonsoft.Json.xml
+D:\Stack\Projects\Boomerang\Boomerang.Models\obj\Debug\Boomerang.Models.dll
+D:\Stack\Projects\Boomerang\Boomerang.Models\obj\Debug\Boomerang.Models.pdb
+D:\Stack\Projects\Boomerang\Boomerang.Models\obj\Debug\Boomerang.Models.csprojResolveAssemblyReference.cache

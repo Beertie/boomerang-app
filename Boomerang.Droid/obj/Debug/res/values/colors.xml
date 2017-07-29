@@ -1,0 +1,1 @@
+<resources><drawable name="button_default">#FF013456</drawable><drawable name="button_focused">#FFd46900</drawable><drawable name="button_pressed">#FFd46900</drawable><drawable name="button_disabled">#FFBFBFBF</drawable></resources>

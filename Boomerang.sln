@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boomerang.Droid", "Boomerang.Droid\Boomerang.Droid.csproj", "{2FD8636C-EF18-48C3-A27F-3F064BD441A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boomerang.Wear", "Boomerang.Wear\Boomerang.Wear.csproj", "{5B9EA75F-E8EA-47D3-ACBD-03D0F3ED5EF1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Boomerang", "Boomerang\Boomerang.shproj", "{7C23A8D8-D993-4ACD-966C-DA6D835234C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boomerang.Models", "Boomerang.Models\Boomerang.Models.csproj", "{B72BB199-B179-47DB-995C-0F1856BE5613}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Boomerang\Boomerang.projitems*{2fd8636c-ef18-48c3-a27f-3f064bd441a5}*SharedItemsImports = 4
+		Boomerang\Boomerang.projitems*{7c23a8d8-d993-4acd-966c-da6d835234c0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FD8636C-EF18-48C3-A27F-3F064BD441A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD8636C-EF18-48C3-A27F-3F064BD441A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD8636C-EF18-48C3-A27F-3F064BD441A5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2FD8636C-EF18-48C3-A27F-3F064BD441A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD8636C-EF18-48C3-A27F-3F064BD441A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD8636C-EF18-48C3-A27F-3F064BD441A5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5B9EA75F-E8EA-47D3-ACBD-03D0F3ED5EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9EA75F-E8EA-47D3-ACBD-03D0F3ED5EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9EA75F-E8EA-47D3-ACBD-03D0F3ED5EF1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5B9EA75F-E8EA-47D3-ACBD-03D0F3ED5EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9EA75F-E8EA-47D3-ACBD-03D0F3ED5EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9EA75F-E8EA-47D3-ACBD-03D0F3ED5EF1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B72BB199-B179-47DB-995C-0F1856BE5613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72BB199-B179-47DB-995C-0F1856BE5613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72BB199-B179-47DB-995C-0F1856BE5613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72BB199-B179-47DB-995C-0F1856BE5613}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
